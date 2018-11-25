@@ -15,8 +15,8 @@ source:
   sha256: 3f4e368c6e686ec41a48cde47d8ab910576b44dfaefccef3754b2d7a7bf2ce92
 
 build:
-  number: 0
-  skip: true  # [win32]
+  noarch: generic
+  number: 1000
   rpaths:
     - lib/R/lib/
     - lib/
@@ -52,8 +52,7 @@ about:
     and produces ANOM decision charts that illustrate which group means deviate significantly
     from the grand mean.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
