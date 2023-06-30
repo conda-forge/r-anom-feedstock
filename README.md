@@ -1,11 +1,11 @@
-About r-anom
-============
+About r-anom-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-anom-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/PhilipPallmann/ANOM
 
 Package license: GPL (>= 2)
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-anom-feedstock/blob/main/LICENSE.txt)
 
 Summary: Analysis of means (ANOM) as used in technometrical computing. The package takes results from multiple comparisons with the grand mean (obtained with 'multcomp', 'SimComp', 'nparcomp', or 'MCPAN') or corresponding simultaneous confidence intervals as input and produces ANOM decision charts that illustrate which group means deviate significantly from the grand mean.
 
